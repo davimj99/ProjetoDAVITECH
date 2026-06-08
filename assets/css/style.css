@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.carousel-item img {
+    height: 600px !important;
+    width: 100%;
+    object-fit: cover !important;
+}
+
+/* NAV BAR GUIA */
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important;
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    border-radius: 30px;
+}
+
+/* FOOTER */
+footer a:hover {
+    color: #0d6efd !important;
+    transition: 0.3s;
+}
+
+/* ESTATÍSTICAS */
+.counter {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stats-section {
+    background: #111;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.stats-box h1,
+.stats-box p {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.8s ease forwards;
+}
+
+.stats-box:nth-child(1) h1,
+.stats-box:nth-child(1) p {
+    animation-delay: 0.2s;
+}
+
+.stats-box:nth-child(2) h1,
+.stats-box:nth-child(2) p {
+    animation-delay: 0.4s;
+}
+
+.stats-box:nth-child(3) h1,
+.stats-box:nth-child(3) p {
+    animation-delay: 0.6s;
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Projetos.php */
+.project-card {
+    transition: all 0.3s ease;
+    border-radius: 12px;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Sobre.php */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.8s ease forwards;
+}
+
+.fade-in:nth-child(1) { animation-delay: 0.1s; }
+.fade-in:nth-child(2) { animation-delay: 0.2s; }
+.fade-in:nth-child(3) { animation-delay: 0.3s; }
+.fade-in:nth-child(4) { animation-delay: 0.4s; }
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* efeito moderno no card */
+.glass-card {
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.glass-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
