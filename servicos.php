@@ -64,16 +64,21 @@ include 'includes/navbar.php';
         </div>
 
         <div class="col-md-4">
-            <div class="card shadow h-100">
+            <div class="card shadow h-100 border-0">
                 <div class="card-body text-center">
-                    <h3 class="display-6">?</h3>
-                    <h4>ChatBots</h4>
-                    <p>Otimização em respotas</p>
+                    <h3 class="display-6">
+                        <i class="bi bi-cpu-fill text-primary"></i>
+                    </h3>
+                    <h4>IA, Chatbots e N8N</h4>
+                    <p>
+                        Soluções inteligentes com Inteligência Artificial,
+                        chatbots personalizados e automações N8N para aumentar
+                        a produtividade e reduzir tarefas repetitivas.
+                    </p>
                 </div>
             </div>
         </div>
-
-    </div>
+        
 </section>
 
 <?php include 'includes/footer.php'; ?>
