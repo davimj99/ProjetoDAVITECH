@@ -1,6 +1,6 @@
 <div class="bg-dark text-white p-3 vh-100">
 
-    <h3>DaviTech</h3>
+    <h3><i class="bi bi-cpu-fill text-primary"></i>DaviTech</h3>
 
     <hr>
         <a href="/DaviTech/admin/dashboard.php"

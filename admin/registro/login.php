@@ -33,15 +33,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>Login - DaviTech</title>
+    <link rel="icon" href="/DaviTech/assets/favicon/adminicon.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> 
 </head>
+
 <body class="bg-light">
     <div class="container">
         <div class="row justify-content-center mt-5">
             <div class="col-md-4">
                 <div class="card shadow">
                     <div class="card-header text-center">
-                        <h3>DaviTech</h3>
+                        <h3>Admin DaviTech  <i class="bi bi-cpu-fill text-primary"></i></h3>
                     </div>
                     <div class="card-body">
                         <?php if (isset($erro)): ?>
