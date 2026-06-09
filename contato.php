@@ -15,7 +15,7 @@ include 'includes/navbar.php';
 <section class="container py-5">
 
     <div class="text-center mb-5">
-        <h1>Entre em Contato</h1>
+        <h1>Entre em Contato com da DaviTech</h1>
         <p class="text-muted">
             Solicite um orçamento ou tire suas dúvidas.
         </p>
