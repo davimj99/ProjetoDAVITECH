@@ -190,26 +190,26 @@ include 'includes/navbar.php';
             </div>
 
             <div class="carousel-item">
-                <img src="assets/images/projeto2.jpg"
+                <img src="assets/images/app_loja.png"
                      class="d-block w-100"
                      style="height: 500px; object-fit: cover;"
                      alt="Sistema de Vendas">
 
                 <div class="carousel-caption bg-dark bg-opacity-75 rounded p-3">
-                    <h3>Sistema de Vendas</h3>
+                    <h3>Sistema de Vendas, E commerce</h3>
                     <p>Plataforma desenvolvida com Django.</p>
                 </div>
             </div>
 
             <div class="carousel-item">
-                <img src="assets/images/projeto3.jpg"
+                <img src="assets/images/Automação.png"
                      class="d-block w-100"
                      style="height: 500px; object-fit: cover;"
-                     alt="Portfólio Empresarial">
+                     alt="Automação Civil n8n">
 
                 <div class="carousel-caption bg-dark bg-opacity-75 rounded p-3">
-                    <h3>Portfólio Empresarial</h3>
-                    <p>Site institucional completo para negócios.</p>
+                    <h3>Automação Civil n8n</h3>
+                    <p>Automação de construução civil, otimização de obras.</p>
                 </div>
             </div>
 
