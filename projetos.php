@@ -14,7 +14,7 @@ include 'includes/navbar.php';
 
     <div class="row g-4">
 
-        <!-- PROJETO 1 -->
+        <!-- PROJETO Dash Mikro -->
         <div class="col-md-4">
             <div class="card shadow border-0 h-100 project-card">
                 <div class="card-body">
@@ -27,6 +27,8 @@ include 'includes/navbar.php';
                         Dashboard para monitoramento de redes utilizando FastAPI.
                     </p>
                     <span class="badge bg-primary">FastAPI</span>
+                    <span class="badge bg-primary">HTML</span>
+                    
                     <button class="btn btn-outline-primary btn-sm mt-3"
                             data-bs-toggle="modal"
                             data-bs-target="#modalMikrotik">
@@ -36,7 +38,7 @@ include 'includes/navbar.php';
             </div>
         </div>
 
-        <!-- PROJETO 2 -->
+        <!-- PROJETO Mini Mercado -->
         <div class="col-md-4">
             <div class="card shadow border-0 h-100 project-card">
                 <div class="card-body">
@@ -58,7 +60,7 @@ include 'includes/navbar.php';
             </div>
         </div>
 
-        <!-- PROJETO 3 -->
+        <!-- PROJETO Agrotech -->
         <div class="col-md-4">
             <div class="card shadow border-0 h-100 project-card">
                 <div class="card-body">
@@ -79,7 +81,7 @@ include 'includes/navbar.php';
             </div>
         </div>
 
-        <!-- PROJETO 4 -->
+        <!-- PROJETO n8n -->
         <div class="col-md-4">
             <div class="card shadow border-0 h-100 project-card">
                 <div class="card-body">
@@ -103,14 +105,13 @@ include 'includes/navbar.php';
             </div>
         </div>
 
-
         <!-- PROJETO ERP IGREJA -->
         <div class="col-md-4">
             <div class="card shadow border-0 h-100 project-card">
                 <div class="card-body">
 
                     <h4 class="fw-bold">
-                        <i class="bi bi-shop text-success me-2"></i>
+                        <i class="bi bi-shop text-primary me-2"></i>
                         ERP Mini Mercado
                     </h4>
 
@@ -118,10 +119,10 @@ include 'includes/navbar.php';
                         Sistema desenvolvido para gestão de vendas e estoque em eventos da igreja.
                     </p>
 
-                    <span class="badge bg-success">Django</span>
-                    <span class="badge bg-primary">FastAPI</span>
+                    <span class="badge bg-danger">Django</span>
+                    <span class="badge bg-dark">FastAPI</span>
 
-                    <button class="btn btn-outline-success btn-sm mt-3"
+                    <button class="btn btn-outline-primary btn-sm mt-3"
                             data-bs-toggle="modal"
                             data-bs-target="#modalERP">
                         Ver detalhes
@@ -251,7 +252,7 @@ include 'includes/navbar.php';
     </div>
 </div>
 
-<!-- MODAL 4 projeto N8N -->
+<!-- MODAL projeto N8N -->
 <div class="modal fade" id="modalN8N" tabindex="-1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
@@ -304,6 +305,7 @@ include 'includes/navbar.php';
     </div>
 </div>
 
+<!-- MODAL ERP IGREJA -->
 <div class="modal fade" id="modalERP" tabindex="-1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
