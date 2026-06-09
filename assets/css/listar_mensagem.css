@@ -1,0 +1,50 @@
+body {
+    background-color: red !important;
+}
+
+/* CARD ANIMATION */
+.card {
+    transition: 0.25s ease;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* STATUS BADGES */
+.badge {
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+/* MODAL STYLE */
+.modal-content {
+    border-radius: 14px;
+    overflow: hidden;
+    border: none;
+}
+
+/* BACKDROP BLUR */
+.modal-backdrop.show {
+    backdrop-filter: blur(6px);
+    background-color: rgba(0,0,0,0.6);
+}
+
+/* MODAL ANIMATION FIX */
+.modal-dialog {
+    transition: all 0.25s ease;
+}
+
+/* BUTTONS */
+.btn {
+    border-radius: 8px;
+}
+
+/* HEADER STYLE (opcional) */
+h2 {
+    font-weight: 600;
+    color: #333;
+}
